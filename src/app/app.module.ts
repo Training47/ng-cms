@@ -12,6 +12,9 @@ import { ArticlesComponent } from './articles/articles.component';
 import { ArticleViewComponent } from './article-view/article-view.component';
 import { ArticleCreateComponent } from './article-create/article-create.component';
 import { ArticleEditComponent } from './article-edit/article-edit.component';
+import { LoginComponent } from './login/login.component';
+import { LogoutComponent } from './logout/logout.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { ArticleEditComponent } from './article-edit/article-edit.component';
     ArticlesComponent,
     ArticleViewComponent,
     ArticleCreateComponent,
-    ArticleEditComponent
+    ArticleEditComponent,
+    LoginComponent,
+    LogoutComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
