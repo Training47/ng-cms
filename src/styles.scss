@@ -12,11 +12,10 @@
 
 h1 {
     text-align: center;
-    // margin-left: 35%;
     font-size: 30px;
 }
 
-button {
+#submit {
     height: 50px;
     display: inline-block;
     border-radius: 4px;
@@ -24,12 +23,11 @@ button {
     background: #4181F0;
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     padding: 16px 15px;
     margin-top: 20px;
-    margin-left: 140px;
-    margin-right: 30px;
-    
+    margin-left: 25%;
+    margin-right: 40px;
     cursor: pointer;
 }
 
@@ -43,7 +41,7 @@ ul {
 form {
     input[type=text], select {
     margin: 10px 0;
-    padding: 12px 20px;
+    padding: 10px 20px;
     box-sizing: border-box;
     width: 100%;
     align-content: space-between;
@@ -57,5 +55,27 @@ div {
     padding: 20px;
 }
 
-
 }
+
+.container {
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 40%;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 20px;
+    
+  }
+
+  .form-control {
+      padding: 15px;
+      width: 190px;
+      align-items: center;
+      margin-left: 10px;
+  }
+
+
+  
+  
